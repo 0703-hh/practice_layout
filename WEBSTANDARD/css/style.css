@@ -45,3 +45,19 @@
     margin: 0 auto;
     background-color: rgba(255, 255, 255, 0.3);
 }
+#skip {
+    position: relative;
+}
+#skip a {
+    position: absolute;
+    left: 0px;
+    top: -35px;
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: #333;
+    line-height: 30px;
+    text-align: center;
+}
+#skip a:active, #skip a:focus {
+    top: 0;
+}
