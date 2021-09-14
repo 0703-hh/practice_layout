@@ -433,3 +433,49 @@
     height: 17px;
     background: url(../img/icon.png) no-repeat -150px -90px;
 }
+
+#notice3 h4 {
+    font: 14px bold;
+    color: #0093bd;
+    padding-bottom: 3px;
+}
+
+#notice3 {
+    position: relative;
+}
+
+#notice3 li {
+    position: relative;
+    padding: 8px 0 14px 60px;
+}
+#notice3 img {
+    width: 50px; border: 1px solid #0093bd;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#notice3 strong {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+#notice3 span {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 12px;
+}
+
+#notice3 a.more {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 17px;
+    height: 17px;
+    background: url(../img/icon.png) no-repeat -150px -90px;
+}
