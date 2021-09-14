@@ -505,10 +505,6 @@
     margin-right: 0;
 }
 
-#notice_hover li a {
-
-}
-
 #notice_hover a span {
     position: relative;
     display: block;
@@ -537,6 +533,53 @@
 }
 
 #notice_hover a strong {
+    display: inline-block;
+    font-size: 12px;
+    padding-top: 3px;
+}
+
+.notice_hover2 {
+    margin-top: 15px;
+}
+
+.notice_hover2 ul {
+    overflow: hidden;
+}
+
+.notice_hover2 li {
+    float: left;
+    width: 93px;
+    margin-right: 5px;
+    text-align: center;
+}
+
+.notice_hover2 li:last-child {
+    margin-right: 0;
+}
+
+.notice_hover2 a span {
+    position: relative;
+}
+
+.notice_hover2 a img {
+    width: 100%;
+}
+
+.notice_hover2 a em {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 93px;
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    visibility: hidden;
+}
+
+.notice_hover2 a:hover em {
+    visibility: visible;
+}
+
+.notice_hover2 a strong {
     display: inline-block;
     font-size: 12px;
     padding-top: 3px;
