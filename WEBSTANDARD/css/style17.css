@@ -26,8 +26,13 @@
     background: #111 url("../img/header_bg.jpg") repeat-x center top;
 }
 
+#footer {
+    border-top: 1px solid #eee;
+}
+
 #contents_nav {
     background-color: #f6fdff;
+    display: none;
 }
 #contents_title {
     background-color: #EAF7FD;
@@ -38,9 +43,7 @@
 #contents_cont {
     background-color: #f6fdff;
 }
-#footer {
-    border-top: 1px solid #eee;
-}
+
 .container {
     width: 990px;
     height: inherit;
@@ -169,26 +172,30 @@
     text-decoration: underline;
 }
 
-#tit {
+.tit {
     position: relative;
 }
 
-#tit h2 {
+.tit h2 {
     font: 40px normal;
     text-align: center;
     padding: 5px 0;
     letter-spacing: 2px;
-    color: #2c94e4;
+    color: .2c94e4;
     font-family: 'Nanum Brush Script', cursive;
 }
 
-#tit #btn {
+.tit .btn {
     position: absolute;
     top: 0;
     right: 0;
     width: 60px;
     height: 60px;
     background: url(../img/icon.png) no-repeat 0 -600px;
+}
+
+.tit .btn.on {
+    background-position: 0 -660px;
 }
 
 #ban {
